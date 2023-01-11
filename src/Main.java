@@ -10,10 +10,10 @@ public class Main {
     private static void task1() {
         System.out.println("Часть 1. Задание 1");
 
-        People maksim = new People(" Максим. ", 35, "Минск. ");
-        People any = new People("Аня. ", 29, "Москва. ");
-        People kate = new People("Катя. ", 28, "Калининград. ");
-        People artem = new People("Артём. ", 27, "Москва. ");
+        Human maksim = new Human(" Максим. ", 35, "Минск. ");
+        Human any = new Human("Аня. ", 29, "Москва. ");
+        Human kate = new Human("Катя. ", 28, "Калининград. ");
+        Human artem = new Human("Артём. ", 27, "Москва. ");
 
         maksim.say();
         any.say();
@@ -24,10 +24,10 @@ public class Main {
     private static void task2() {
         System.out.println("Часть 1. Задание 2");
 
-        People1 maksim = new People1(" Максим. ", 35, "Минск "," бренд-менеджер.");
-        People1 any = new People1("Аня. ", 29, "Москва. ", " методист образовательных программ.");
-        People1 kate = new People1("Катя. ", 28, "Калининград. ", " продакт-менеджер.");
-        People1 artem = new People1("Артём. ", 27, "Москва. ", " директор по развитию бизнеса.");
+        Human maksim = new Human(" Максим. ", 35, "Минск "," бренд-менеджер.");
+        Human any = new Human("Аня. ", 29, "Москва. ", " методист образовательных программ.");
+        Human kate = new Human("Катя. ", 28, "Калининград. ", " продакт-менеджер.");
+        Human artem = new Human("Артём. ", 27, "Москва. ", " директор по развитию бизнеса.");
 
         maksim.say1();
         any.say1();

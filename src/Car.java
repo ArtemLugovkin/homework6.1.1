@@ -1,16 +1,16 @@
 public class Car {
 
-    String mark;
+    private String mark;
 
-    String model;
+    private String model;
 
-    String engineСapacity;
+    private String engineСapacity;
 
-    String bodyСolor;
+    private String bodyСolor;
 
-    String yearOfProduction;
+    private String yearOfProduction;
 
-    String countryOfAssembly;
+    private String countryOfAssembly;
 
     Car(String mark, String model, String engineСapacity, String bodyСolor, String yearOfProduction, String countryOfAssembly) {
         this.mark = mark;

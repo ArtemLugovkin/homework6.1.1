@@ -1,9 +1,9 @@
 public class Human {
 
 
-        String name;
-        int age;
-        String city;
+    private String name;
+    private int age;
+    private String city;
 
 
         Human(String name, int age, String city) {
@@ -17,11 +17,11 @@ public class Human {
         }
 
 
-        String name1;
-        int age1;
+    private String name1;
+    private int age1;
 
-        String city1;
-        String post;
+    private String city1;
+    private String post;
 
 
 

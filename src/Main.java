@@ -11,9 +11,9 @@ public class Main {
         System.out.println("Часть 1. Задание 1");
 
         Human maksim = new Human(" Максим. ", 35, "Минск. ");
-        Human any = new Human("Аня. ", 29, "Москва. ");
-        Human kate = new Human("Катя. ", 28, "Калининград. ");
-        Human artem = new Human("Артём. ", 27, "Москва. ");
+        Human any = new Human(" Аня. ", 29, "Москва. ");
+        Human kate = new Human(" Катя. ", 28, "Калининград. ");
+        Human artem = new Human(" Артём. ", 27, "Москва. ");
 
         maksim.say();
         any.say();
